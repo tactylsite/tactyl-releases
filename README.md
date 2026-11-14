@@ -5,7 +5,7 @@ and control deck for your computer: system stats, shortcuts, your open apps,
 browser tabs and bookmarks, calendar, notifications, media, a trackpad, a
 keyboard, home automation and more, all laid out by you in a visual editor.
 
-More at **[tactyl.site](https://tactyl.site)**.
+More at **[tactyl.space](https://tactyl.space)**.
 
 This public repository holds the **app installers** and the **add-on
 catalogue**. The source code is private.
@@ -73,4 +73,4 @@ only contain safe actions (key combinations and https links), never commands.
 ## Licence
 
 The installers are free to download. Using Tactyl is subject to its licence
-(see [tactyl.site](https://tactyl.site)). © 2026 Tactyl. All rights reserved.
+(see [tactyl.space](https://tactyl.space)). © 2026 Tactyl. All rights reserved.
