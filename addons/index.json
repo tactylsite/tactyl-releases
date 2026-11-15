@@ -301,6 +301,50 @@
    "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAEHUlEQVR42u2aP4gdVRTGvzOzuzGySvxLoog2xg0JixpBULSwMBhEBS0sIoJgESxDQEghNoJgo2BhbWmfYGFhoxAVlARNBP+BYAxLNmQjSTZv5mdzrl4e8/7PfW9edj5YZt6+mTPn++bec84990ktWrRo0aJFixYttiasTmPAf/bMjHmwbTU4lblTRcX3uZ+Wozqd0vbEAgTnuh0DbpG0JGnTzDYqHB7obErbtQgAZGZW+vmtkg5Iek7SqqRdkrZLuirpnKRTkj6XdMLM1rvvn6btuuZh7scl4AjwO8PhT+AYcHPX8J2K7brJrwBfRw50gOtAAZTRX+H/70TXfg880u1oStt1k38SOO8PDI4Ng9KvB7gEPBvsAlkq23WRDw7uBtYiB8dBeGMbwMMh6CW0nU2ce4HM5+U3EzrY7egZYLuPgm9rtv0TsOy+9w30gxQKUfUtSY9J6khamHBQ5W7nIUmHJb0uaX/NtlckHXXfs7HSIGBmhuffM56GGEK0oQaXH9clFZLurLEyDbYvStptZmuBy6gjIASRA5LukVTWRD4QNUm3S7or+lyX7VLSbZJe6uIykgBBsef9nBTZNZHdYPtgKJdHEsADR+nHVVc1U5rFmCW0uw9YNLOyVzDsScrnzLKknSlWjlNa5d7tU2HsLLAk6aY5Xu4v+fqh5wscJMB1SdfmWIDNyH/GEeCypL/7GWgogq9rki6MPAU8/+deSJx2g+WcCYCkH81s05fJI4+AMGeOJ4zWqQPhiYHBfohKcIeks16wkCgdpnj7lyWtmNlf/RolfdOgT4OLkj6MKqymo3Benzj5vF+XyIboz5mkbZJOStrnD8gbTD6X9JukRyVdkkS/XmH/lZLfaGZXJB3yYZX7g5pK/pqkQz5ybVCjdOB89jIyN7MfJL0cidBpSGrE65Xc8/6rZvaV+1zU2RZb8ON+4FTUhCiYHeJnnwWemlZjdBl4N+rhFTMkfwF437NVOvLdPUI/3wl8WVM7a5zW13fA/RW7RUotggGLfn4HcLrLsWmQ/wW4131YHNT7Sz0lHgD+mIIIYdifB/ZM9a0PIcIqsJ4wJoTNkX+AJ+LAPPs89H+GeAa4GjlbF8JuUAG80CjyFSK8Ek2FsibyIcC+0UjykQghMB6OMsOkIgTybzeafMVIeKeG9Bju/WAuyEcpMojwsRPYnID8p9FG6nz0JFyEkB0+G2MkhGuPAwvD7PE1VYQM2AZ8MYIIoY446SW3TbzLO0MRwtb6Dv8Bw6BCKXz3M7Crli3uBogQpsJ9wK99RAjF0zngwUZUeQlE2Bv9EKKoqPI2gMdvKPIV6fFp4EqP3/wcnJt0N6EILzrxThQYX7uhyVeI8GY0BY5sCfIVIrwHfLSlyPfoLGXaivAix9SiRYsWLVq0mAX+BRAMutYkzlyIAAAAAElFTkSuQmCC",
    "zip": "https://raw.githubusercontent.com/Jaumartang/Tactyl-releases/main/addons/musica-1.2.0.zip",
    "sig": "https://raw.githubusercontent.com/Jaumartang/Tactyl-releases/main/addons/musica-1.2.0.zip.sig"
+  },
+  {
+   "id": "ia",
+   "nom": "IA",
+   "versio": "1.0.0",
+   "descripcio": {
+    "ca": "Els assistents d'IA a la placa: ChatGPT, Claude, Gemini, Perplexity i Copilot. Obre un xat nou amb un toc, copia la resposta o el codi, i fes servir les dreceres de cada un. Cada assistent té la seva pantalla, que surt sola quan el tens al davant.",
+    "en": "AI assistants on the board: ChatGPT, Claude, Gemini, Perplexity and Copilot. Open a new chat with one tap, copy the answer or the code, and use each one's shortcuts. Each assistant has its own screen, which shows up by itself when it's in front.",
+    "es": "Los asistentes de IA en la placa: ChatGPT, Claude, Gemini, Perplexity y Copilot. Abre un chat nuevo con un toque, copia la respuesta o el código y usa los atajos de cada uno. Cada asistente tiene su pantalla, que sale sola cuando lo tienes delante.",
+    "fr": "Les assistants d'IA sur la carte : ChatGPT, Claude, Gemini, Perplexity et Copilot. Ouvrez une nouvelle discussion d'un geste, copiez la réponse ou le code et utilisez les raccourcis de chacun. Chaque assistant a son écran, qui s'affiche tout seul quand il est au premier plan.",
+    "de": "KI-Assistenten auf dem Board: ChatGPT, Claude, Gemini, Perplexity und Copilot. Öffnen Sie mit einem Tipp einen neuen Chat, kopieren Sie die Antwort oder den Code und nutzen Sie die Tastenkürzel. Jeder Assistent hat seinen eigenen Bildschirm, der von selbst erscheint, wenn er vorne ist.",
+    "it": "Gli assistenti IA sulla scheda: ChatGPT, Claude, Gemini, Perplexity e Copilot. Apri una nuova chat con un tocco, copia la risposta o il codice e usa le scorciatoie di ciascuno. Ogni assistente ha la sua schermata, che appare da sola quando è in primo piano.",
+    "pt": "Os assistentes de IA na placa: ChatGPT, Claude, Gemini, Perplexity e Copilot. Abre um chat novo com um toque, copia a resposta ou o código e usa os atalhos de cada um. Cada assistente tem o seu ecrã, que aparece sozinho quando o tens à frente."
+   },
+   "programes": [
+    {
+     "id": "chatgpt",
+     "nom": "ChatGPT",
+     "web": "chatgpt.com"
+    },
+    {
+     "id": "claude",
+     "nom": "Claude",
+     "web": "claude.ai"
+    },
+    {
+     "id": "gemini",
+     "nom": "Gemini",
+     "web": "gemini.google.com"
+    },
+    {
+     "id": "perplexity",
+     "nom": "Perplexity",
+     "web": "perplexity.ai"
+    },
+    {
+     "id": "copilot",
+     "nom": "Copilot",
+     "web": "copilot.microsoft.com"
+    }
+   ],
+   "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADbElEQVR42u2av0ocURTGv7maWoIQhICmEGJnYUCwEAtjwDyBQlTII6QRX0B8gTQWEgIWlulMEF/AWgRLEcEmlTbu7i/NueQwjDA7687O7M6By509M3tnzr/vnnNmpIYaqjUBCZAU/X+os+B2OG1DRRQRamz8YAKvSlq14zBKrj9m8xlw5nkjIbzF/jzwZGPeeGOjoIBxm0/5T6f+3CgIv22Ct2wAbA+1EoBXNi8CD0Ab6NhoG2/RXzuMws8Ct2bxtguBeHwLzA6NEoDgEH8JuMkQPq2EG2DJAWYY1MMnNk8DuZOViOYe0YEtc/HnhE8r4QHYSu0cY71kjYWsZ/MasOZ5XayxAPzKEJAcSsD+uzBoxN4H9vMgtFn/HbAD/HYIHwEvL3WcIlq21o6tHcpKhTs2f7TheUOfrASz5pzbq+eMF4Y+BBxyH7iHOciTs9ceBGONDrwG7t3D3Rsvdw1fy23Qgd9uRrq6WyRdrU0iZBYLwBuzeETjiOL3di4U2BKrnwo76x8665M6PixatFS6GHKxumxWaWXEacvOLRdtYlSyHI7bGzABXOcAqmu7NnSLzJVsiDirnGS4fpYXAJz0EArVaYk54fdMsKccyUq8Zq/grhC94KuNwVjfIfOmE6yTM1ePStjsFrldpTkDzOStNPtl+c8mTNGC5Qn4XNATktIFTwm/Djymqq9uKCrtEVivfE/Pxxqw4dy4iPDpneEJ2PAxXrl+vDvec27coXfy6+xl3bMqVp8Ajgs2KbppYhwDEwP1BhN83P1eAS5z7PO9Ulz7EljxuFNWORtSgk8B3521+yl8Wgkdu/dUShHhpS0d0gsDk8A34C7DRcsgH2J39iyTaUMVSacjJc8oZE7SF0nbkt4auy1pUIDk730r6Yekn0mSXPW6cEwipiS9l7Qi6ZOkD5LG3c3Dc8oqE5KsoRoV0ZJ0IelU0rmka0l3SZLQzaKj80FBEwINCDbbYJMINalwUww15XDTEBm2llgVlDCQpmhVPaG0tniVlVDKi5GqNktLeTVWZSWU8nK0LqHQl9fjdVBA3z6QqKMXvNgnMnUExBf5SKrf1BcXtL5cSJLkr6Qjd+rIeKHb3l1dsaDnDyVrrwSbL4ALz6sKjZcQYh1JfzJ4I6GAKOh5Bm8kFBCB7iqDNzpUpW2voRT9A0Kowb9u+YeiAAAAAElFTkSuQmCC",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.0.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.0.0.zip.sig"
   }
  ]
 }
