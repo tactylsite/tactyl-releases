@@ -64,50 +64,6 @@
    "sig": "https://raw.githubusercontent.com/Jaumartang/Tactyl-releases/main/addons/domotica-1.0.0.zip.sig"
   },
   {
-   "id": "ia",
-   "nom": "IA",
-   "versio": "1.0.0",
-   "descripcio": {
-    "ca": "Els assistents d'IA a la placa: ChatGPT, Claude, Gemini, Perplexity i Copilot. Obre un xat nou amb un toc, copia la resposta o el codi, i fes servir les dreceres de cada un. Cada assistent té la seva pantalla, que surt sola quan el tens al davant.",
-    "en": "AI assistants on the board: ChatGPT, Claude, Gemini, Perplexity and Copilot. Open a new chat with one tap, copy the answer or the code, and use each one's shortcuts. Each assistant has its own screen, which shows up by itself when it's in front.",
-    "es": "Los asistentes de IA en la placa: ChatGPT, Claude, Gemini, Perplexity y Copilot. Abre un chat nuevo con un toque, copia la respuesta o el código y usa los atajos de cada uno. Cada asistente tiene su pantalla, que sale sola cuando lo tienes delante.",
-    "fr": "Les assistants d'IA sur la carte : ChatGPT, Claude, Gemini, Perplexity et Copilot. Ouvrez une nouvelle discussion d'un geste, copiez la réponse ou le code et utilisez les raccourcis de chacun. Chaque assistant a son écran, qui s'affiche tout seul quand il est au premier plan.",
-    "de": "KI-Assistenten auf dem Board: ChatGPT, Claude, Gemini, Perplexity und Copilot. Öffnen Sie mit einem Tipp einen neuen Chat, kopieren Sie die Antwort oder den Code und nutzen Sie die Tastenkürzel. Jeder Assistent hat seinen eigenen Bildschirm, der von selbst erscheint, wenn er vorne ist.",
-    "it": "Gli assistenti IA sulla scheda: ChatGPT, Claude, Gemini, Perplexity e Copilot. Apri una nuova chat con un tocco, copia la risposta o il codice e usa le scorciatoie di ciascuno. Ogni assistente ha la sua schermata, che appare da sola quando è in primo piano.",
-    "pt": "Os assistentes de IA na placa: ChatGPT, Claude, Gemini, Perplexity e Copilot. Abre um chat novo com um toque, copia a resposta ou o código e usa os atalhos de cada um. Cada assistente tem o seu ecrã, que aparece sozinho quando o tens à frente."
-   },
-   "programes": [
-    {
-     "id": "chatgpt",
-     "nom": "ChatGPT",
-     "web": "chatgpt.com"
-    },
-    {
-     "id": "claude",
-     "nom": "Claude",
-     "web": "claude.ai"
-    },
-    {
-     "id": "gemini",
-     "nom": "Gemini",
-     "web": "gemini.google.com"
-    },
-    {
-     "id": "perplexity",
-     "nom": "Perplexity",
-     "web": "perplexity.ai"
-    },
-    {
-     "id": "copilot",
-     "nom": "Copilot",
-     "web": "copilot.microsoft.com"
-    }
-   ],
-   "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADbElEQVR42u2av0ocURTGv7maWoIQhICmEGJnYUCwEAtjwDyBQlTII6QRX0B8gTQWEgIWlulMEF/AWgRLEcEmlTbu7i/NueQwjDA7687O7M6By509M3tnzr/vnnNmpIYaqjUBCZAU/X+os+B2OG1DRRQRamz8YAKvSlq14zBKrj9m8xlw5nkjIbzF/jzwZGPeeGOjoIBxm0/5T6f+3CgIv22Ct2wAbA+1EoBXNi8CD0Ab6NhoG2/RXzuMws8Ct2bxtguBeHwLzA6NEoDgEH8JuMkQPq2EG2DJAWYY1MMnNk8DuZOViOYe0YEtc/HnhE8r4QHYSu0cY71kjYWsZ/MasOZ5XayxAPzKEJAcSsD+uzBoxN4H9vMgtFn/HbAD/HYIHwEvL3WcIlq21o6tHcpKhTs2f7TheUOfrASz5pzbq+eMF4Y+BBxyH7iHOciTs9ceBGONDrwG7t3D3Rsvdw1fy23Qgd9uRrq6WyRdrU0iZBYLwBuzeETjiOL3di4U2BKrnwo76x8665M6PixatFS6GHKxumxWaWXEacvOLRdtYlSyHI7bGzABXOcAqmu7NnSLzJVsiDirnGS4fpYXAJz0EArVaYk54fdMsKccyUq8Zq/grhC94KuNwVjfIfOmE6yTM1ePStjsFrldpTkDzOStNPtl+c8mTNGC5Qn4XNATktIFTwm/Djymqq9uKCrtEVivfE/Pxxqw4dy4iPDpneEJ2PAxXrl+vDvec27coXfy6+xl3bMqVp8Ajgs2KbppYhwDEwP1BhN83P1eAS5z7PO9Ulz7EljxuFNWORtSgk8B3521+yl8Wgkdu/dUShHhpS0d0gsDk8A34C7DRcsgH2J39iyTaUMVSacjJc8oZE7SF0nbkt4auy1pUIDk730r6Yekn0mSXPW6cEwipiS9l7Qi6ZOkD5LG3c3Dc8oqE5KsoRoV0ZJ0IelU0rmka0l3SZLQzaKj80FBEwINCDbbYJMINalwUww15XDTEBm2llgVlDCQpmhVPaG0tniVlVDKi5GqNktLeTVWZSWU8nK0LqHQl9fjdVBA3z6QqKMXvNgnMnUExBf5SKrf1BcXtL5cSJLkr6Qjd+rIeKHb3l1dsaDnDyVrrwSbL4ALz6sKjZcQYh1JfzJ4I6GAKOh5Bm8kFBCB7iqDNzpUpW2voRT9A0Kowb9u+YeiAAAAAElFTkSuQmCC",
-   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.0.0.zip",
-   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.0.0.zip.sig"
-  },
-  {
    "id": "reunions",
    "nom": "Reunions",
    "versio": "1.1.0",
@@ -326,6 +282,50 @@
    "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAMnUlEQVR42u1aa4xd1XX+1t77nHNnBhzHkARZtlCdKkriJIpS1ESCYCIbVTKmMD/udXg0JSIdVJvGGJuAbcy5J6UGZzAYLBvsQCWoQ6p7FYogRqoAwURJ1agqtdSYP6ZJIwVDComBuY/z2Gut/jj3gk08TyaNK8/6MZofM/vs/Z29v8c6G5iv+Zqv+Zqv+Zqv+Zqv06MUSgqlM3LxcazmXSBO+P1MefdUgvCLyv741cH/q6ea0+fNkz4+Wlz2qbOWHlm44LyX/+HurPb+XfH7KDpd3vwz9yN8s50fHRoIl4oAaZa/ZShcds0WOq6qRET6/2QHzIzENAYBpL8dzz9lyCxudXLOChFVYgSwsx33DwJAfysTSKdLYvXeHBh0SRQ6qwIfWmOE9d+u2UxvxrGaer0EiUDaqKqdyzm7uVx8kpDE8S8qixEaSqgzzX8VAFDBKmZAtS+H9BwALH7t3+0NBy4o+uPWEur0n3Xa7IA4VpckJPtvT/98mVt6ZCA47+VH4qlJTKGUJCTfu0s/7EW/lGUKEYSdlEWNvgAANxy4oHg4KS4rx1388iN3ZFeVQKs7LQDoLd7v39ZdFUWuSWSXGTLnK/DQd+O3FiUJieqpz26zUT6/k/ovRi48pygK72xIvuCfj//6l0cAYH+sg2B5KLB2mSjOd4F7/MD2dDhJyM8FCB8IgEZDbZKQf3Br+0/DKPiBMIVZlhd5IaxCNow+NClpHTlSqpCKrLIWECXvLKBKP9qw5xNZHKsZaIEUZPMCkud5wawSOPf9h7Z0V84FCLMGoFFVW6sRP7Al/WTooqdU7IK8YIYaCpyxwtjyl1vpN9Wq2okkrJ6A41iNqvlKXgAqsMyAqHkWAJYD7mu7qA0xm4lgAGPyQlSEoiAKnti3Xf8kScg3GrMnxlkBUK2qrTWJ927TpQPOHSJjP5blOZOSRpFz452sfsOOcF8cq2k2iSciTQLpkgzLVPCZLGMANuikvk25/TEAHAF8o6r2r+50j7fTYmMUOEsgzQvPELsgUP7hntv0E7Ua8WzVwcyG7ZtN4ntufudcBz7kjF2WpoWHkA5UnBvv+N3rdlSSPjFO9ezC8MWVyIXMkgfOQBiHR75Dv1ItCbLWJI5jdet2hLtbbZ9UQuegpFmeszH2vMjxM/d/S5fUmsTVWYBgZi510NFNrw0NhoNPBs5+ttMtvAowUAlcq+MfW39XsLHRUFtPwJONtfxlKAAoy6UigCqkN5nnAaBef88EJeVRcet3BvVWJ39gIAqcKmmaFt4a+/HQ8aFdG3VRswTL/F4A6DN5HMMO2nMaldBe2GkXXrW/+OKpX0fu63GsplqDECazrkq1JvHopteGhHFRngMqCNJcIarPnwhQz7FrPQE3GmrX74w2tNrFwcEocKpAt1v40NrPVUJ+ctdGHUgS6ExAmNYfKpSaNZgkITm37R+rRMHqVrvwokAlClwn5RfeGAjW1uvlpCdfPNCols+N6JzPW+uW5IVnYwKb5f4Yxo+/BAC1JuTk0EJarULiWM3Yfz95XatbPD0QBU4EaHcKXwnsl0NXNOP4RXviC5sDAJTqMWytSXz/zcXegchd1V98FAYuTeWlFtnhJKG0XgdNx6Ed+XRP/hQrA0tQReHKDf+TG/d9rFUS2u+C2FeTRrMqZw0GtU7Xj1XCcieMdwo/EAaXLRq/6NEkIWnWYKaTHczU5x42Scjfe1Nx50Dk1rU63ouAQhe4LOej7W56+W076e1qVe107Wm9XvKDCq30DAirUQGY8dyJAJ2qkoSkHoO+nlDa6rSH04wPh0HgVIBWu/ADkbv6vpuKPbUmcT2GxRQgmOm4vHtv8psHI7et3WXPAnI2sIWXV4tusfrWvUPHqlW1E8ndKeWPSPes18Ui9IUsVwAm6KRckMrYiflgMhCqVbVbHlx4/J12tiYv+JXQBY4V1O6wH4zcjbs28LdLowQ7KwB6b9SP3uivD50dbafMzErWWMssx7PUr9m0b+CVxgwWDwDLl5dvN3d8YRTYszxz4YwlZhz5l2PRK+jlg6nGafZk7/b9Q6+mbb+68HIssIFlUWp32Q+EZvvojfmmJCE/mUcwk2n9d9YVVzhL380yFvFC1jirInmW8fC39kWH41hdbQaLPykCer1UyxTIxgCq+mIpY5i2ljebxI2G2lv3V45mhb+cPY876yyzmE7KXAmDe0bX+b+oNYkniudmooS2f0QHQdgDGPKsCjKkIuNZqmtufTAc6x+PmTZLajXi/SMasOLiopQ/V3gAvfN/svxNXbVaaZRu3Ru9VLD8mTD/lsgQsyIvoEK6O77+rUU0QSib8Ai8czZIhRwzVBVQAUQhEG0DAF6cTXIst//bLl9uyPxxVnglsi7N/HHi7k8BoNrEjHP+8uUlaFIELRFiLY0VVKAqcFFl4lBmfrdJSFqtqr1lF7VVsdkABCWwF1UxH7Kh/ec7R/ILkrFZhRBTbn97SWiNVUHuDAFCP918YMGb/Xwwm1D2dyP6SWPleZD5iPeiUFJnYUR0y9a9E4cyMxnB3PaQe7yT88bQWQsYyQvPquYsZ8zTO75RhpAZ+m/p/VglAoj0XWa5/Wdqzfuh7G+v06WO5BCR+UiWeVaQRIF1rU5R37p/8lBmJiOYeIW62w+43e2uT8LAOgCa5Z4N2fPIyjPxN3RJc9ohpOSWu/5aP8yiX8pyQBVhmokw7AvTkb9TEXU88s65NuRDxpplWe69KrQSOtfq+N23Pxwm8YrJQ9mkiCdj4HiFuu2PBPV21z8QBb0klrG3ZD4eQA7F108vhPTtr8/9FwPrzvGevTWOCq8/L47jZ73Qo9NdfJJAN12rQ4EMPRlY+9k0Za9CGAida3flse2PBBsbVbXJ2OShbIotR5qMgRtVtXf8fbCh3ZGDldCWISRjH1rzOacyrRBy5H9KAhTFKkuAKrwt5e9HSZPyiezvqVSq71AXBtyInLmwk7JXBSqhda0uP+WXmDKUNSFTjTmNM0dabZYh5Gdtc127w09HgXUqQCdlHwbmy+PHuRmv6IWQCaxnfazX/WH6SuEB6XV/SNyzJwI0ZSirlqHM/hKPRaFd3e6yVwHCwLpuKi+I2LX1BIpk6lA2bdLpD9RsQhS21s1kLAqsYwVaXfaVwF6m519chpAqzPv997vs/l9YBsVnskKhMEGaS5sD/BgAMDbV+VeqryhD2R1f471hgKtaXfaiQOisyzJ5qd02w8mjlNZjUILp5ZJps27ZigYlj1KaFuPDWSaHI1vuhFaX/UBgrr79Gt5TaxLHK94XQl7sffwgXBw4GzJL7gxBWQ8nD9OvFDrlhOMVsMkY+e3X8p0DgVnX7ooXAQXWuryQo60svXxnc2ahbMay0w8hdz++8Pjbabom9/JKaK1TVWql7AdCc+O2q/nbyRj5EoSyXv5or/sj/tKeQREDQITK7s+Kye1vvEJdMkZ+29W6OQrMtnYqXlTJGWt9Ia+mYlaP/uPMQtmse4J92buvOfRqt12sLrwcc+SsCqiTia8EZvuWr/pNyVgZQhRKzSbxpmt1SJkuygtAFUFWAApTdn8+OjH7V6tqkzHyW9b660OH0W7GLKJkyFoRHC8yv+bugzTjUPaBusLNZtmFHX2icjQt/OUs8rYhY1mUuhlz5Ow9t60tQ8iBkfLzW5jj88bYJYUXNmRtUfCx4wVO2f15v9ZvXatlKMtZRAACGRVJu1kxvKMZHY5XzD6Uzfq7QK1nlEYb0UtZKsMqlBqQYSbJPUSB3Rurby0aOQAPAEK80hlABIUlQEE/2dekVnVC+SuN08gaHWSVPaIGzMSqRICRwpvaaDMc6x+PP8iXofKsqxt9Inghz7AWClhjAgIMhALqmne9vXC/+wOjCrDocwDw6Snk7+yFICgCAojIBM4Y43Nct7NBT3/Qxc/Jt8F3Qfgneir15hoRvM6CN1TNhnt/uOBNALjlq7oYgi8UBUAwQZpJAdiy+3PJRPJHGsdqdh2ktqj5Jnu8DpU3sww37PwBHZyLxc9p9V3ghit04for9Zw+ewPALcNa3VpT3TzM+W1V1U3D+h/l1p/+hYeTxj1dL1BVqw17IiB9ADZdyfu3VlVvvpK7W6sqm67U+04EaLrg9lVhLuc851dO+laYett4ZI0ODhn5T2vMH3kRHzoT5B5rdj9Fh2ai2++NO7d3heZ8K1HvKkufyc/OQCoYIoCcKe1vYfCvfWs9u3FPYwBOJjHQrmeprWr+xjNeZ8YbqvrNvU/Sb/r3iXCm1IYrdOH6lSWJ4Uy7CnsiicVn3hXY95zdGXsJer7ma77ma77ma77m63Ss/wUjIeb04Y3RugAAAABJRU5ErkJggg==",
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.1.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.1.0.zip.sig"
+  },
+  {
+   "id": "ia",
+   "nom": "IA",
+   "versio": "1.1.0",
+   "descripcio": {
+    "ca": "Els assistents d'IA a la placa: ChatGPT, Claude, Gemini, Perplexity i Copilot. Obre un xat nou amb un toc, copia la resposta o el codi, i fes servir les dreceres de cada un. Cada assistent té la seva pantalla, que surt sola quan el tens al davant.",
+    "en": "AI assistants on the board: ChatGPT, Claude, Gemini, Perplexity and Copilot. Open a new chat with one tap, copy the answer or the code, and use each one's shortcuts. Each assistant has its own screen, which shows up by itself when it's in front.",
+    "es": "Los asistentes de IA en la placa: ChatGPT, Claude, Gemini, Perplexity y Copilot. Abre un chat nuevo con un toque, copia la respuesta o el código y usa los atajos de cada uno. Cada asistente tiene su pantalla, que sale sola cuando lo tienes delante.",
+    "fr": "Les assistants d'IA sur la carte : ChatGPT, Claude, Gemini, Perplexity et Copilot. Ouvrez une nouvelle discussion d'un geste, copiez la réponse ou le code et utilisez les raccourcis de chacun. Chaque assistant a son écran, qui s'affiche tout seul quand il est au premier plan.",
+    "de": "KI-Assistenten auf dem Board: ChatGPT, Claude, Gemini, Perplexity und Copilot. Öffnen Sie mit einem Tipp einen neuen Chat, kopieren Sie die Antwort oder den Code und nutzen Sie die Tastenkürzel. Jeder Assistent hat seinen eigenen Bildschirm, der von selbst erscheint, wenn er vorne ist.",
+    "it": "Gli assistenti IA sulla scheda: ChatGPT, Claude, Gemini, Perplexity e Copilot. Apri una nuova chat con un tocco, copia la risposta o il codice e usa le scorciatoie di ciascuno. Ogni assistente ha la sua schermata, che appare da sola quando è in primo piano.",
+    "pt": "Os assistentes de IA na placa: ChatGPT, Claude, Gemini, Perplexity e Copilot. Abre um chat novo com um toque, copia a resposta ou o código e usa os atalhos de cada um. Cada assistente tem o seu ecrã, que aparece sozinho quando o tens à frente."
+   },
+   "programes": [
+    {
+     "id": "chatgpt",
+     "nom": "ChatGPT",
+     "web": "chatgpt.com"
+    },
+    {
+     "id": "claude",
+     "nom": "Claude",
+     "web": "claude.ai"
+    },
+    {
+     "id": "gemini",
+     "nom": "Gemini",
+     "web": "gemini.google.com"
+    },
+    {
+     "id": "perplexity",
+     "nom": "Perplexity",
+     "web": "perplexity.ai"
+    },
+    {
+     "id": "copilot",
+     "nom": "Copilot",
+     "web": "copilot.microsoft.com"
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.1.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.1.0.zip.sig"
   }
  ]
 }
