@@ -25,45 +25,6 @@
    "sig": "https://raw.githubusercontent.com/Jaumartang/Tactyl-releases/main/addons/fotos-1.0.0.zip.sig"
   },
   {
-   "id": "domotica",
-   "nom": "Domòtica",
-   "versio": "1.0.0",
-   "descripcio": {
-    "ca": "La casa des de la placa: llums, endolls, persianes i escenes de Home Assistant, Tuya / Smart Life i l'app Casa d'Apple (amb les Dreceres), amb el punt verd o vermell de com estan.",
-    "en": "Your home from the board: lights, plugs, blinds and scenes from Home Assistant, Tuya / Smart Life and Apple's Home app (with Shortcuts), with a green or red dot showing their state.",
-    "es": "La casa desde la placa: luces, enchufes, persianas y escenas de Home Assistant, Tuya / Smart Life y la app Casa de Apple (con Atajos), con el punto verde o rojo de cómo están.",
-    "fr": "La maison depuis la carte : lumières, prises, volets et scènes de Home Assistant, Tuya / Smart Life et l'app Maison d'Apple (avec Raccourcis), avec un point vert ou rouge selon leur état.",
-    "de": "Dein Zuhause auf der Platine: Lichter, Steckdosen, Rollläden und Szenen aus Home Assistant, Tuya / Smart Life und der Home-App von Apple (mit Kurzbefehlen), mit grünem oder rotem Punkt für den Zustand.",
-    "it": "La casa dalla scheda: luci, prese, tapparelle e scene di Home Assistant, Tuya / Smart Life e dell'app Casa di Apple (con Comandi rapidi), con il punto verde o rosso del loro stato.",
-    "pt": "A casa a partir da placa: luzes, tomadas, estores e cenas do Home Assistant, Tuya / Smart Life e da app Casa da Apple (com Atalhos), com o ponto verde ou vermelho do estado."
-   },
-   "programes": [
-    {
-     "id": "llums",
-     "nom": "Llums",
-     "web": ""
-    },
-    {
-     "id": "endolls",
-     "nom": "Endolls",
-     "web": ""
-    },
-    {
-     "id": "persianes",
-     "nom": "Persianes",
-     "web": ""
-    },
-    {
-     "id": "escenes",
-     "nom": "Escenes",
-     "web": ""
-    }
-   ],
-   "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAE2ElEQVR42u2aT4gcVRDGq2ZmXTcRd7OSqDFEF9RDRITgSfEiiIcc9KIeAqLgQaNIwKASRAmGHFQ8BBQEQUUPihBERPFgEEQUopKLIor435h/rhGTTbLT/fNSHcrHm93pmZ7untkpWKa3p+e9+r5XVV+9NyMytrGNbWwVGaCArlTwDXfdXGngmy4CmiuKBKBlr7cCB4Gvgduz90Y2JYLVvgdY5P/2cBYJI0eCgW/Y9RMGODUSFoHE7u0Jnx+ZYmegXjCgbfsj8v/rLk2aww4+C/nVwDsGcNGF/zHgkCMhu/8hsGaoSXDg1wOfRsD/BFwDzAHfRd4/CMz5wjmMlX4T8H0E3FfAFe75S4FPIs/9Alw/VCQ48DcDRyKgPgBmXMXPImUK2Bd5/h9gS+1JsCKXgb8LOO3AZAXu1ViBC7rCvfZs4khoA/fVViYDmdsRVPfUrncvJXF+XwDsdFLpx3iqdjIZrN6zbvXaDsRD3axe0CzdHURANt5LjuxGXSr9JPBmJH9P9tLmBu3yfGTcd4ELKpVJB34t8FHEyT+AG3stXo6E64AfI+N/DmyopDg65660zUzo3DfAVf065+bZCByIzPMDcG2pJDinbgB+jzi1H1hXVHi6SLsQeK9DN3nLwEkIZO42y++wQL0FTBadm67oNYGXI/OeBbYObEsdVOdtTpa8RD0XU4YiSXAyucspTOJ8eCx8tuiJn3Yy5/8eL3zi5RfiQVt57wfA84UthAu9FvBKsOqpk7pZA98soQapzTVp+Y/zJ6sLbwPn95WKjulp4H1XfJIIAXNlNSYuGtcCxx0BYfv8MXBxTyS4Ync58GUAnmDSk8DGCgiYjRAQkvAtcHUuhXBhv9n27OGG5gt3iFEXAjI5/CxyuHIIuKkr/xz4LcCJiObuA2asAakbAYeBNcBrkUVbAO5c0kc38CrgV/vgGTfIi1aAJoHfakjAvDtneMalw1m7/ssds51TqpjDKiJZvpwnIk0ReVJVt6kqIjIhIkkNjyRSEWkBqqqPisgjhm/C3m91wBtNgTssd44A9/sOyyLk5xpGwHFg1t6bsNetDse9uXy0XL8o0gwNAwG+YTqHI2atTpGgqn9nGqqqybB9W2M+Nx2OhqqmXRGgqmkGWFUTGVLzCxcD35EA+wCDDOGy5l1uvFJPUjqFYd5nirRWySGZmlY3RYSI/KaqOl+mT60yVx7YJSIPGNhGRMcFeMM0XMqMhDzyk0sG3eemgX9Z3hJgfRfjLSmD3eJqlBxtCxb6aZAC/t4p172NVA3ACPerM2/3Z+x+lhqU5VRV36yoiJwQkc0isklE/gyIkVGMgFhEHLWQr6zYVf0F40SZ+V5HAigz3+tIQOVWNQFaVfGrCwGJiLSrdKAoFch+3RH79bcC0mGlV0d6g37Gq4yAxLadSYdCJ0AS3JsWkQN2fYm9ao/jVU7AKmDKdnlpbJdnqx2m34YQWB/jlUoAbgc3JSL7ZfmT4oa1vD58ibTIecfLIoeyCMj69dRNflkP5Pnxwnt5xks77DOKJ8AK0hnb1fWqIEXLXubHaRFZyHt42zUBqoodbLSB7SKy14pXlVqepdAxEdmhqqfyHqn17Lj9FGbdgFY1DwEqIkdVdaHM06HatdC9+tRPBFTexnp3BnWMP7axjW207T/frs3Cpcen6gAAAABJRU5ErkJggg==",
-   "zip": "https://raw.githubusercontent.com/Jaumartang/Tactyl-releases/main/addons/domotica-1.0.0.zip",
-   "sig": "https://raw.githubusercontent.com/Jaumartang/Tactyl-releases/main/addons/domotica-1.0.0.zip.sig"
-  },
-  {
    "id": "reunions",
    "nom": "Reunions",
    "versio": "1.1.0",
@@ -326,6 +287,45 @@
    "icona_url": "data:image/png;base64,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",
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.1.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.1.0.zip.sig"
+  },
+  {
+   "id": "domotica",
+   "nom": "Domòtica",
+   "versio": "1.1.0",
+   "descripcio": {
+    "ca": "La casa des de la placa: llums, endolls, persianes i escenes de Home Assistant, Tuya / Smart Life i l'app Casa d'Apple (amb les Dreceres), amb el punt verd o vermell de com estan.",
+    "en": "Your home from the board: lights, plugs, blinds and scenes from Home Assistant, Tuya / Smart Life and Apple's Home app (with Shortcuts), with a green or red dot showing their state.",
+    "es": "La casa desde la placa: luces, enchufes, persianas y escenas de Home Assistant, Tuya / Smart Life y la app Casa de Apple (con Atajos), con el punto verde o rojo de cómo están.",
+    "fr": "La maison depuis la carte : lumières, prises, volets et scènes de Home Assistant, Tuya / Smart Life et l'app Maison d'Apple (avec Raccourcis), avec un point vert ou rouge selon leur état.",
+    "de": "Dein Zuhause auf der Platine: Lichter, Steckdosen, Rollläden und Szenen aus Home Assistant, Tuya / Smart Life und der Home-App von Apple (mit Kurzbefehlen), mit grünem oder rotem Punkt für den Zustand.",
+    "it": "La casa dalla scheda: luci, prese, tapparelle e scene di Home Assistant, Tuya / Smart Life e dell'app Casa di Apple (con Comandi rapidi), con il punto verde o rosso del loro stato.",
+    "pt": "A casa a partir da placa: luzes, tomadas, estores e cenas do Home Assistant, Tuya / Smart Life e da app Casa da Apple (com Atalhos), com o ponto verde ou vermelho do estado."
+   },
+   "programes": [
+    {
+     "id": "llums",
+     "nom": "Llums",
+     "web": ""
+    },
+    {
+     "id": "endolls",
+     "nom": "Endolls",
+     "web": ""
+    },
+    {
+     "id": "persianes",
+     "nom": "Persianes",
+     "web": ""
+    },
+    {
+     "id": "escenes",
+     "nom": "Escenes",
+     "web": ""
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/domotica-1.1.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/domotica-1.1.0.zip.sig"
   }
  ]
 }
