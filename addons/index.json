@@ -380,6 +380,41 @@
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.3.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.3.0.zip.sig",
    "app_minima": "1.0.69"
+  },
+  {
+   "id": "borsa",
+   "nom": "Borsa i cripto",
+   "versio": "1.0.0",
+   "descripcio": {
+    "ca": "Preus de cripto i d'accions a la placa, en temps real: gràfiques amb rangs (1D, 1S, 1M, 1A) i espelmes, la llista amb minigràfiques, la cartera i avisos quan un preu passa d'un límit. Les cripto van sense clau (Binance); les accions i els ETF, amb la teva clau gratuïta de Finnhub. Es configura a Configuració > Borsa.",
+    "en": "Crypto and stock prices on the board, in real time: charts with ranges (1D, 1W, 1M, 1Y) and candles, the watchlist with sparklines, your portfolio and alerts when a price crosses a limit. Crypto needs no key (Binance); stocks and ETFs use your free Finnhub key. Set it up in Settings > Stocks.",
+    "es": "Precios de cripto y de acciones en la placa, en tiempo real: gráficos con rangos (1D, 1S, 1M, 1A) y velas, la lista con minigráficos, la cartera y avisos cuando un precio pasa de un límite. Las cripto van sin clave (Binance); las acciones y los ETF, con tu clave gratuita de Finnhub. Se configura en Configuración > Bolsa.",
+    "fr": "Les cours des cryptos et des actions sur la carte, en temps réel : graphiques avec périodes (1J, 1S, 1M, 1A) et chandeliers, la liste avec mini-graphiques, le portefeuille et des alertes quand un cours franchit une limite. Les cryptos sans clé (Binance) ; les actions et ETF avec votre clé Finnhub gratuite. À configurer dans Réglages > Bourse.",
+    "de": "Krypto- und Aktienkurse auf dem Board, in Echtzeit: Charts mit Zeiträumen (1T, 1W, 1M, 1J) und Kerzen, die Watchlist mit Mini-Charts, dein Portfolio und Alarme, wenn ein Kurs eine Grenze überschreitet. Krypto ohne Schlüssel (Binance); Aktien und ETFs mit deinem kostenlosen Finnhub-Schlüssel. Einrichten unter Einstellungen > Börse.",
+    "it": "Prezzi di cripto e azioni sulla scheda, in tempo reale: grafici con intervalli (1G, 1S, 1M, 1A) e candele, la watchlist con minigrafici, il portafoglio e avvisi quando un prezzo supera un limite. Le cripto senza chiave (Binance); azioni ed ETF con la tua chiave gratuita di Finnhub. Si configura in Impostazioni > Borsa.",
+    "pt": "Preços de cripto e de ações na placa, em tempo real: gráficos com períodos (1D, 1S, 1M, 1A) e velas, a lista com minigráficos, a carteira e alertas quando um preço passa um limite. As cripto sem chave (Binance); as ações e os ETF com a tua chave gratuita do Finnhub. Configura-se em Definições > Bolsa."
+   },
+   "programes": [
+    {
+     "id": "cripto",
+     "nom": "Cripto",
+     "web": ""
+    },
+    {
+     "id": "accions",
+     "nom": "Accions",
+     "web": ""
+    },
+    {
+     "id": "llista",
+     "nom": "Llista",
+     "web": ""
+    }
+   ],
+   "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAEF0lEQVR42u2aTYgcVRSFz63uwTiOZlSYYBQNLiQLN2YjCiqIm7iIjpiVJCRZiG6UQEAEyTZBQRRBQXFj/IGA/wr+4UJBNyIEUSQi/oFCBrLI4Diarvrc3AePoqZTnZ7UvOl5B4pXVFe9qnPfuefeqhkpIyMjIyMjIyMjI2MjwlJ9MMAk9caZwszKDb26HsT1pQDAzAxgk6R9kmYlLUkq2k4haUbSl2b2RZhvPa1a4dtrjIcKuMvnXDGV+gmufgVsljQv6V9JVQul1v1iIGmTpF2SPht2fVIBcOkXkhYlfSzp3nHi6YEYin6KWeCB2CvpYUlbh6igkFRKutT9ohedZ208LrkABMMys0VJT7ZMnZedPKMae4oKaNsH9M1sGXhK0gFXSTHqfZINgCthsEJwAvk9kg75eZOlgCHK6JnZALhF0ou+8r3z7WmKdUa+MLMSuFrScS91ock57ccUHZucAIS2FrjIiV7j0g+y3yfpAz+9nEQF9MysctnfGvlDX9LTZva+pLmJTAE3vQHwmKS9NfLvSjrkDVSVVAAAa/NG1tL07pF0NJJ3X9L3kvZIKlwdJBMAN6zQ1fXGIF8CN0o65gRx1z8t6T5vmEI1qxra4e7LoJOv/JW2MLMllyhtX02DpIErJL3p7W4ZlbsHzOykBzeoYtr38bHfuQI8Xytgl0v0B2C/mVVt1eBpE7bXJd0QOX5P0kEz+8jvFTv+kv8+5eNC52bl4+3Acu39/CVgJj6vxTzP+rVnfQN4oT5H8BpgFngPWAQ+BeZWw4da56uP24EFf9hBtAF8B9wcf/gYQv6hiHy4/nOgD/SGkQK2dt6h+bgF+CkiT7QfVnAZOFgPXC2Id0bEwzw/A3Px/c5Vdbpa+SC/aeDraNVK3/81+kR1NgrKW8BVgXhE/nrgVBS4EvgbuOlcn7c6JR6RDw/+TkO+PgdcBjwTEY8l/RtwdzTfDPBtw3m723jHmnRoPj7fQP7tmhzngT8bzgM4AmwGjjf8fjh18k80PPRXwMWukCJSybXAhzU1BPziYxkdfyN18vsb5HoS2FI3q5rZPR6RjK+tov1vPIhFZzk9IvmdkUmFhz4FbF/JrOLS573Cjw3lsgL+ArYNc/w1+xrj4w7gTLRiFfAPcNuIjc7lwCu1hqkE7mjr+GtR67cBf9RWDuD+UfK1lhIP+qovAAeSy/uI/CxwoqG5ecR/nzqPMlpEargyRdkHJ5/y/rru+EfGXbGaGpIjH/L+1QbyxwL5VfjwYUm5fc2sjjaQ/8RVUST34Kvs+I821OsT/hfctCR7AcjPN7j978B1k0w+fH+fdrIl8J/X+jOjvJWt9wBc4rU5/o+LnUn25hew7u9OukHpKBizSTYoXSphQ5JPukHJyMjIyMjIyMjIGBv/A9LkB9+JJtsqAAAAAElFTkSuQmCC",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/borsa-1.0.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/borsa-1.0.0.zip.sig",
+   "app_minima": "1.0.68"
   }
  ]
 }
