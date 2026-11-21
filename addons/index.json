@@ -30,60 +30,6 @@
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/streaming-1.1.0.zip.sig"
   },
   {
-   "id": "google",
-   "nom": "Google",
-   "versio": "1.3.0",
-   "descripcio": {
-    "ca": "Les eines de Google a la placa: Meet, Docs, Sheets, Slides, Gmail i Calendar. Cada programa té els seus botons a l'editor i una pantalla que surt sola quan el tens al davant.",
-    "en": "Google's tools on the board: Meet, Docs, Sheets, Slides, Gmail and Calendar. Each program has its buttons in the editor and a screen that shows up by itself when it's in front.",
-    "es": "Las herramientas de Google en la placa: Meet, Docs, Sheets, Slides, Gmail y Calendar. Cada programa tiene sus botones en el editor y una pantalla que aparece sola cuando lo tienes delante.",
-    "fr": "Les outils Google sur la carte : Meet, Docs, Sheets, Slides, Gmail et Calendar. Chaque programme a ses boutons dans l'éditeur et un écran qui s'affiche tout seul quand il est au premier plan.",
-    "de": "Die Google-Werkzeuge auf der Platine: Meet, Docs, Sheets, Slides, Gmail und Calendar. Jedes Programm hat seine Tasten im Editor und einen Bildschirm, der von selbst erscheint, wenn es vorne ist.",
-    "it": "Gli strumenti di Google sulla scheda: Meet, Docs, Sheets, Slides, Gmail e Calendar. Ogni programma ha i suoi pulsanti nell'editor e una schermata che appare da sola quando è in primo piano.",
-    "pt": "As ferramentas do Google na placa: Meet, Docs, Sheets, Slides, Gmail e Calendar. Cada programa tem os seus botões no editor e um ecrã que aparece sozinho quando está à frente."
-   },
-   "programes": [
-    {
-     "id": "eines",
-     "nom": "Eines",
-     "web": ""
-    },
-    {
-     "id": "meet",
-     "nom": "Meet",
-     "web": "meet.google.com"
-    },
-    {
-     "id": "docs",
-     "nom": "Docs",
-     "web": "docs.google.com/document"
-    },
-    {
-     "id": "sheets",
-     "nom": "Sheets",
-     "web": "docs.google.com/spreadsheets"
-    },
-    {
-     "id": "slides",
-     "nom": "Slides",
-     "web": "docs.google.com/presentation"
-    },
-    {
-     "id": "gmail",
-     "nom": "Gmail",
-     "web": "mail.google.com"
-    },
-    {
-     "id": "calendar",
-     "nom": "Calendar",
-     "web": "calendar.google.com"
-    }
-   ],
-   "icona_url": "data:image/png;base64,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",
-   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/google-1.3.0.zip",
-   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/google-1.3.0.zip.sig"
-  },
-  {
    "id": "adobe",
    "nom": "Adobe",
    "versio": "1.1.0",
@@ -331,6 +277,66 @@
    "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAIrUlEQVR42u1abYycVRV+zr33fedrZ7bbUhoXYhSpBSuKgWBKWrDGSJQWTUhXXH6ZaJYowa9QIkZnBmIIbFKIhkiFnybqbkxKKqhV6FqBykeprSQookEjNFJhOzuz77wf957jj5ndnd2dtrt1d0Li+yTvn8nknLnnPOc55z13gBQpUqRIkSJFihQpUqRIkeL/DrTkb4pQ734VyTsnROWy2iWie+lyl4xpiKgVTDKdGwNEFIgYAK6QF7zp5yZLquBWLTs8rckOJI1X3//paKH/c8LYmMbQkDuTLXO2w186sX+jKhW+ER45tV1D1iMggYBWoRhFQ0jX/Lc3v/jkIVebvv/PRC/NO8TyypVA5CBCGB9SIHLthMvZGdA+/CVP/fqTOpv9mcpl1nAzhDi3+uWvFVQ2BxeGgQTTN798zfX7lsUEEd0+LD7whyc+D0V3kFKGk+j2l7dc90tIWYGqfPoASFkBFdn89JMXsaajpE2RwzCBIiKlzeIYrmClCiDsHFiYMr4HQeTEXvXKlk/8CWNj6oxMECGMjysMDblNBw4MqlJmVPlmWKwDZTNwU1P/Krzd3HRk5w1NQGaFdlEJ7MJmGidi+7vf3qELxaKt1RLSxiPtgePolIAcILSiQSAAICGIIj8zIGI1N21iSsUMNerfBvC5M9f6bNbdpoknhsk3o+RnB2294SAChJYgau3kQO48EP6JckXNpNEsjOI4kbv48cczwurjbjoSYUVkfLgw+o5of69yTkwmwytNABtFSgCgGd8MP7MHkijXCEUsXbvpqaeKf9m6tQ4RmtciZ7NObtOBA4OSzYyS7w9LkiCZrFsi0gABpAjMgnix364iaEKvz/oYIGGCGMPNuJbjdfcfv+7y6R603R9cvPXa3cp4gxw7AKoYR6fWAqijUpkrwI6sX/ybiWH21Kjyc4Ou0XDCLKSNEQHgnAAEMHXVu64BaOQLknHh3OzDZE9GkzmIBN2UdCVVYP34RF6YEmaCMAEiUFGme9b3HRi0fflR8r1hSRLYyboFEalC0bhgOiKQI9I5cQAYQLTY6WmHDbEK4qj1WCLtZ7hNPwHRyj9tuyZbZGGiWd+uI3GDgxpEgqEhd9FjE8O2UHhe+blh1wgdh9aCjFGFfu2CeEIcbROLE6J8ErvAzlLmAGECqB0fZqCHsyA7gqIZBtBcqxoZSS4c23+BKa69j/zMsCQxklMNCyLofMFIEgeuEVT//qmto4DgPft/n1EJFttZUgBcxwTpCPB6FwCxgFA7a0xg6VMA8O5HD+1QXuYR5fkbWrUuQtoYlS/Ahs1DFLrbXrtx2zEAWLfv6aI4sKg5O6SyyyiBDgqejj6rFgDuKD8mskwWBw8aWHqIlL/B1uoJWyjK9hkRHdjpYPc/nvvV9tdu3Hbsihde8ACQr7Junh1HQLhUBkzNiOasCAJTPQyAI/AMA4SgVeTW/c3LcT8VMN0UYaXJeOBmfMjFyW2v37TtWGs2qagjgJ0R6Xl2mBB30W51pjqUthJzrxnQxbcqJSIOzKxJxCgXc41qzc+8ftO2YzgoBiBZOC532hHufoYzlEAnfVTvTn+iJVpz/hUQFGZKg1qJUeCEOenPa5RF4WNwZ7XDBDSxPAZ0Pr2E6/Q9k7k3AW63s1YQNKQZEFBZkh3nlssApk4h6m0J2PkCHMyJo7Q+AyCkrIcQ1SpjonuTXmhn6XNADRA9J4LCBNR62QU6alcwO4OIk9ZLjGOB8UrU7P/p+oef+drJ7fQqyqLabJDudghIljwHlCA2aAcBgANApR4GoC3CjiAicGAzeXIiOP+C699CJr+Gk7pFZI3KF6+HpqvPf/jIt978Eu1tTYs7PbSPOt8OQSO3tBKY6jIHTPW0BNRsvYtVwpGnUa0yi/qqi9wk/H5PHLGrN6w4DCDT99D6h4/tP++BwxsxcmUCEbJJVi2w020MeKcOQvN9q8gxAPxn5MrHqFm/isPoF8j0a8AzHDnrpupOdHaH5ArPrnvwyC0gkpNf2RwIk5p3huZyRfAsPbQnGtDpe+9e7+StV7/61siHd7pg+hYWPYlMyQgTXKNhxcoAsv0/XPvg8UfXfv/oJcwUiahzmAOmAO7IAjOBa6GCCKGC1ni20g+17NqkrpybUfsFLfiNNxzKZYWyqMlbP7I3qTc+ylE8x4a4xQaY/A3MdFgsNkjsIE6dtpV3DYBEisQRzfZiC1UQ0wSRoEoMkKzCwwDJl09OBGJFz/gWB5KkY5lRrTKqxCgfNPU7tvx18tYP7rRBcIuwnoRfMsKAa9StwJQEpo8ty+xu4azvAm039ejf00Wz7hSRWQMbM5lcf5DEX9ww+sdHuGHIIFz5lRiySvVZ2QM1RMq8S+LEQRsFThrEcgoAUKkIqtV2ILZblMsKqGDq67S3eO/hJ4lLe8jv3yFRACTWAmRAbZKxkiXMASStPfz2UO45fogy+fdKGLOI0yD/gcAmt0vGOZBHK3p9JUIgFrJaQasLJRGAKSE/ryWqPzN555U1lLusxqtVBqqYYQOAnX33vTQC6HuUlx+QsO7aOw0SgOJk8VpscWGURaEK6fve0UtF5Y4QUVZsnICgSftq9V+EEobAkdYeSDvH8ZbmnZc9j11jGuNnWIu32YAqcfGuFzeyn99DXnYHkhDwskBYP9Hw3UbcfnkAmVuLd1eGsihUiXN3Hf8smexPyMtmJQ4Adj24GNUgPwexsSXb/ML0dz/045nfs7Sl6kGD6nYLALm7Xx4hkt1QRqsk+majfNnPF9o6fX9rRzxfPnq56MJuEb4GwmvAQlgNHjAApQREUwAOk3X3Ne/e/OyyDt/JhkqltWssH8ziRF3hRzcEy78c7XRefqWUNdSPEICNVn4wMBmBURSGqOHe99UW+T+ny1HRGGpdk527rbIojI319HocZVGtl5sVUZV2G/hf/yABIZQrqz8SzlA3RYoUKVKkSJEiRYoUKVKkSLFa+C+I15i/WYvi0AAAAABJRU5ErkJggg==",
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/reunions-1.2.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/reunions-1.2.0.zip.sig",
+   "app_minima": "1.0.67"
+  },
+  {
+   "id": "google",
+   "nom": "Google",
+   "versio": "1.4.0",
+   "descripcio": {
+    "ca": "Les eines de Google a la placa: Meet, Docs, Sheets, Slides, Gmail i Calendar. Cada programa té els seus botons a l'editor i una pantalla que surt sola quan el tens al davant.",
+    "en": "Google's tools on the board: Meet, Docs, Sheets, Slides, Gmail and Calendar. Each program has its buttons in the editor and a screen that shows up by itself when it's in front.",
+    "es": "Las herramientas de Google en la placa: Meet, Docs, Sheets, Slides, Gmail y Calendar. Cada programa tiene sus botones en el editor y una pantalla que aparece sola cuando lo tienes delante.",
+    "fr": "Les outils Google sur la carte : Meet, Docs, Sheets, Slides, Gmail et Calendar. Chaque programme a ses boutons dans l'éditeur et un écran qui s'affiche tout seul quand il est au premier plan.",
+    "de": "Die Google-Werkzeuge auf der Platine: Meet, Docs, Sheets, Slides, Gmail und Calendar. Jedes Programm hat seine Tasten im Editor und einen Bildschirm, der von selbst erscheint, wenn es vorne ist.",
+    "it": "Gli strumenti di Google sulla scheda: Meet, Docs, Sheets, Slides, Gmail e Calendar. Ogni programma ha i suoi pulsanti nell'editor e una schermata che appare da sola quando è in primo piano.",
+    "pt": "As ferramentas do Google na placa: Meet, Docs, Sheets, Slides, Gmail e Calendar. Cada programa tem os seus botões no editor e um ecrã que aparece sozinho quando está à frente."
+   },
+   "programes": [
+    {
+     "id": "eines",
+     "nom": "Eines",
+     "web": ""
+    },
+    {
+     "id": "meet",
+     "nom": "Meet",
+     "web": "meet.google.com"
+    },
+    {
+     "id": "docs",
+     "nom": "Docs",
+     "web": "docs.google.com/document"
+    },
+    {
+     "id": "docs_revisio",
+     "nom": "Docs: revisió",
+     "web": ""
+    },
+    {
+     "id": "sheets",
+     "nom": "Sheets",
+     "web": "docs.google.com/spreadsheets"
+    },
+    {
+     "id": "slides",
+     "nom": "Slides",
+     "web": "docs.google.com/presentation"
+    },
+    {
+     "id": "gmail",
+     "nom": "Gmail",
+     "web": "mail.google.com"
+    },
+    {
+     "id": "calendar",
+     "nom": "Calendar",
+     "web": "calendar.google.com"
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/google-1.4.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/google-1.4.0.zip.sig",
    "app_minima": "1.0.67"
   }
  ]
