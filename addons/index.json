@@ -1,65 +1,6 @@
 {
  "addons": [
   {
-   "id": "reunions",
-   "nom": "Reunions",
-   "versio": "1.1.0",
-   "descripcio": {
-    "ca": "Les reunions a la placa: Meet, Zoom, Teams, FaceTime, Webex, Slack i Discord, cadascun amb les seves dreceres i una pantalla que surt sola quan el tens al davant. Els botons de càmera mostren si la càmera és encesa.",
-    "en": "Meetings on the board: Meet, Zoom, Teams, FaceTime, Webex, Slack and Discord, each with its shortcuts and a screen that shows up by itself when it's in front. The camera buttons show whether the camera is on.",
-    "es": "Las reuniones en la placa: Meet, Zoom, Teams, FaceTime, Webex, Slack y Discord, cada uno con sus atajos y una pantalla que aparece sola cuando lo tienes delante. Los botones de cámara muestran si la cámara está encendida.",
-    "fr": "Les réunions sur la carte : Meet, Zoom, Teams, FaceTime, Webex, Slack et Discord, chacun avec ses raccourcis et un écran qui s'affiche tout seul quand il est au premier plan. Les boutons caméra indiquent si la caméra est allumée.",
-    "de": "Meetings auf der Platine: Meet, Zoom, Teams, FaceTime, Webex, Slack und Discord, jeweils mit ihren Tastenkombinationen und einem Bildschirm, der von selbst erscheint, wenn die App vorne ist. Die Kamera-Tasten zeigen, ob die Kamera an ist.",
-    "it": "Le riunioni sulla scheda: Meet, Zoom, Teams, FaceTime, Webex, Slack e Discord, ognuno con le sue scorciatoie e una schermata che appare da sola quando è in primo piano. I pulsanti della fotocamera mostrano se è accesa.",
-    "pt": "As reuniões na placa: Meet, Zoom, Teams, FaceTime, Webex, Slack e Discord, cada um com os seus atalhos e um ecrã que aparece sozinho quando está à frente. Os botões da câmara mostram se a câmara está ligada."
-   },
-   "programes": [
-    {
-     "id": "general",
-     "nom": "General",
-     "web": ""
-    },
-    {
-     "id": "meet",
-     "nom": "Meet",
-     "web": "meet.google.com"
-    },
-    {
-     "id": "zoom",
-     "nom": "Zoom",
-     "web": ""
-    },
-    {
-     "id": "teams",
-     "nom": "Teams",
-     "web": ""
-    },
-    {
-     "id": "facetime",
-     "nom": "FaceTime",
-     "web": ""
-    },
-    {
-     "id": "webex",
-     "nom": "Webex",
-     "web": ""
-    },
-    {
-     "id": "slack",
-     "nom": "Slack",
-     "web": ""
-    },
-    {
-     "id": "discord",
-     "nom": "Discord",
-     "web": ""
-    }
-   ],
-   "icona_url": "data:image/png;base64,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",
-   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/reunions-1.1.0.zip",
-   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/reunions-1.1.0.zip.sig"
-  },
-  {
    "id": "streaming",
    "nom": "Streaming",
    "versio": "1.1.0",
@@ -326,6 +267,71 @@
    "icona_url": "data:image/png;base64,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",
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/fotos-1.1.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/fotos-1.1.0.zip.sig"
+  },
+  {
+   "id": "reunions",
+   "nom": "Reunions",
+   "versio": "1.2.0",
+   "descripcio": {
+    "ca": "Les reunions a la placa: Meet, Zoom, Teams, FaceTime, Webex, Slack i Discord, cadascun amb les seves dreceres i una pantalla que surt sola quan el tens al davant. Els botons de càmera mostren si la càmera és encesa.",
+    "en": "Meetings on the board: Meet, Zoom, Teams, FaceTime, Webex, Slack and Discord, each with its shortcuts and a screen that shows up by itself when it's in front. The camera buttons show whether the camera is on.",
+    "es": "Las reuniones en la placa: Meet, Zoom, Teams, FaceTime, Webex, Slack y Discord, cada uno con sus atajos y una pantalla que aparece sola cuando lo tienes delante. Los botones de cámara muestran si la cámara está encendida.",
+    "fr": "Les réunions sur la carte : Meet, Zoom, Teams, FaceTime, Webex, Slack et Discord, chacun avec ses raccourcis et un écran qui s'affiche tout seul quand il est au premier plan. Les boutons caméra indiquent si la caméra est allumée.",
+    "de": "Meetings auf der Platine: Meet, Zoom, Teams, FaceTime, Webex, Slack und Discord, jeweils mit ihren Tastenkombinationen und einem Bildschirm, der von selbst erscheint, wenn die App vorne ist. Die Kamera-Tasten zeigen, ob die Kamera an ist.",
+    "it": "Le riunioni sulla scheda: Meet, Zoom, Teams, FaceTime, Webex, Slack e Discord, ognuno con le sue scorciatoie e una schermata che appare da sola quando è in primo piano. I pulsanti della fotocamera mostrano se è accesa.",
+    "pt": "As reuniões na placa: Meet, Zoom, Teams, FaceTime, Webex, Slack e Discord, cada um com os seus atalhos e um ecrã que aparece sozinho quando está à frente. Os botões da câmara mostram se a câmara está ligada."
+   },
+   "programes": [
+    {
+     "id": "general",
+     "nom": "General",
+     "web": ""
+    },
+    {
+     "id": "meet",
+     "nom": "Meet",
+     "web": "meet.google.com"
+    },
+    {
+     "id": "zoom",
+     "nom": "Zoom",
+     "web": ""
+    },
+    {
+     "id": "zoom_host",
+     "nom": "Zoom: amfitrió",
+     "web": ""
+    },
+    {
+     "id": "teams",
+     "nom": "Teams",
+     "web": ""
+    },
+    {
+     "id": "facetime",
+     "nom": "FaceTime",
+     "web": ""
+    },
+    {
+     "id": "webex",
+     "nom": "Webex",
+     "web": ""
+    },
+    {
+     "id": "slack",
+     "nom": "Slack",
+     "web": ""
+    },
+    {
+     "id": "discord",
+     "nom": "Discord",
+     "web": ""
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/reunions-1.2.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/reunions-1.2.0.zip.sig",
+   "app_minima": "1.0.67"
   }
  ]
 }
