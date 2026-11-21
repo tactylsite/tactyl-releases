@@ -166,61 +166,6 @@
    "app_minima": "1.0.67"
   },
   {
-   "id": "ia",
-   "nom": "IA",
-   "versio": "1.2.0",
-   "descripcio": {
-    "ca": "La IA a un toc de qualsevol app: selecciona un text i toca Resumeix, Tradueix, Corregeix, Explica, Respon el correu... Tactyl el porta a ChatGPT, Claude, Gemini, Perplexity o Copilot amb el prompt, l'envia i et torna el porta-retalls com era. Captura un tros de pantalla i pregunta-hi, enganxa la resposta on eres, escriu els teus prompts i tria l'assistent amb un toc.",
-    "en": "AI in one tap from any app: select some text and tap Summarize, Translate, Fix, Explain, Reply to email... Tactyl takes it to ChatGPT, Claude, Gemini, Perplexity or Copilot with the prompt, sends it and gives you your clipboard back. Snip part of the screen and ask about it, paste the answer where you were, write your own prompts and pick the assistant with one tap.",
-    "es": "La IA a un toque desde cualquier app: selecciona un texto y toca Resume, Traduce, Corrige, Explica, Responde el correo... Tactyl lo lleva a ChatGPT, Claude, Gemini, Perplexity o Copilot con el prompt, lo envía y te devuelve el portapapeles como estaba. Captura un trozo de pantalla y pregunta, pega la respuesta donde estabas, escribe tus prompts y elige el asistente con un toque.",
-    "fr": "L'IA d'un geste depuis n'importe quelle app : sélectionnez un texte et touchez Résumer, Traduire, Corriger, Expliquer, Répondre au courriel... Tactyl l'envoie à ChatGPT, Claude, Gemini, Perplexity ou Copilot avec le prompt et vous rend le presse-papiers tel quel. Capturez une zone de l'écran et posez une question, collez la réponse là où vous étiez, écrivez vos prompts et choisissez l'assistant d'un geste.",
-    "de": "KI mit einem Tipp aus jeder App: Text markieren und Zusammenfassen, Übersetzen, Korrigieren, Erklären, Auf E-Mail antworten... tippen. Tactyl bringt ihn mit dem Prompt zu ChatGPT, Claude, Gemini, Perplexity oder Copilot, sendet ihn und stellt die Zwischenablage wieder her. Bildschirmausschnitt aufnehmen und fragen, Antwort dort einfügen, wo du warst, eigene Prompts schreiben und den Assistenten mit einem Tipp wählen.",
-    "it": "L'IA con un tocco da qualsiasi app: seleziona un testo e tocca Riassumi, Traduci, Correggi, Spiega, Rispondi all'email... Tactyl lo porta a ChatGPT, Claude, Gemini, Perplexity o Copilot con il prompt, lo invia e ti restituisce gli appunti com'erano. Cattura una parte dello schermo e chiedi, incolla la risposta dove eri, scrivi i tuoi prompt e scegli l'assistente con un tocco.",
-    "pt": "A IA com um toque em qualquer app: seleciona um texto e toca Resume, Traduz, Corrige, Explica, Responde ao email... O Tactyl leva-o ao ChatGPT, Claude, Gemini, Perplexity ou Copilot com o prompt, envia-o e devolve-te a área de transferência como estava. Captura um pedaço do ecrã e pergunta, cola a resposta onde estavas, escreve os teus prompts e escolhe o assistente com um toque."
-   },
-   "programes": [
-    {
-     "id": "prompts",
-     "nom": "Prompts",
-     "web": ""
-    },
-    {
-     "id": "mes",
-     "nom": "Més prompts",
-     "web": ""
-    },
-    {
-     "id": "chatgpt",
-     "nom": "ChatGPT",
-     "web": "chatgpt.com"
-    },
-    {
-     "id": "claude",
-     "nom": "Claude",
-     "web": "claude.ai"
-    },
-    {
-     "id": "gemini",
-     "nom": "Gemini",
-     "web": "gemini.google.com"
-    },
-    {
-     "id": "perplexity",
-     "nom": "Perplexity",
-     "web": "perplexity.ai"
-    },
-    {
-     "id": "copilot",
-     "nom": "Copilot",
-     "web": "copilot.microsoft.com"
-    }
-   ],
-   "icona_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAL+0lEQVR42u1afYxc1XX/nXvve/Oxu94VyQqHIFfGWHawCy3e4ioo9UwUEpXgyijMJDaKTURrx1C1aYQCtRtmX9J1aYRoWgU7a2phGzDKTqQgNZAGosxgBInLmNbUa4MItYSAmmzq7O7szsd7957TP2bHWX+w7Nq76y+OdP+YM+/ed8955/zOx73Ah/QhXeAk1BhnRuqCFVsaQr/4OOa9+DjmjeddEgpAHkpEiOA+Q3CfERFCfuryqAtXfoCIhJ1bw86tISLJXype39cnWiD0wu76dfseC6N9j4XRC7vr1wmE+vpEX/QW0NkPIpBo677ja8/42jPauu8QSDr7MSUcoAtN+EJBTDpN9oVHhtbNSc7ZWalVHAAk40k9XBm+41N/0b6r+cxFZwG9vSUvnSa7t3doeYsf3xqGVQY7BXYqDKvc4se37u0dWp5Ok+3tLXkXlQWUekte14auqPC9965uS7Q9r5W6oh7VmEipRghkjnlx5ZjfLVfLK9J/efmvmnMuaAVIThSWgChL7sWH3/tkIt72A0XqylpYYUVKyThBWJjjflKx8NvVWvmLN959+UvSJxr9EAqIZ10BIkJEJC9899g8APjU1y57q8n7oHn5PBSQRzabdQDw8rZja43xthHpZFP4081tKkHEVayNNv7Rxst2NyJHnwYyyGTA499vZvgDEgBJeLx47PdbTd6EkxobdADwy60Dy3zycr4XX1mLqnBcY01KQU77QaFBql4fZa1MMuEld72ybfC2UKLgj7Od+0/3/IwqoNgNBYDBnB5jPXucN8HX/+V3j/6e56kUQa2BqE/7nqcr1SEGQGoC4cdWgAIU21AqNpRkvHWlhO7m/d8b+LmA90QRF/99cO5bwZhLzGgUKI4JKsI3ifBN43mTdCIQM8gxSGRscIM30ZBxz7sG7/2MjmYSvCggKf3LO4uUmIMAwGSXdv3Vx1+XnND7gdLJtP+f312mlJ+LGX9lParCshvzf3lfr2NhNkqrmJdA3Yb/xhwGy/76ill2gSUNYIbjryTjcQ0AI7XhrwC4F0smtrzxILgse8V+AH/2yj+9t9Zotc0zJlkLq2MRQMZ9QwGBwOI44ScUM1dqterG6//m8glBkGayVP3vbUMdUbX8utGmEwCsswNeom3R729sHxwHdh9oSfkloGyW3H888MYnE/E5P1BKX1mNTo0ELMwJL6mY3dvV2vAXb7hv4Ut9faIzE4RBNTPgV9REJHZkaENHfE6ni0LnotB1xOd02pGhDUQkxe7ipIoWCoizWXKl9SXvhvsWvlSuDKedDd9N6JgSttz0e2HLCR1TzobvlivD6RvuW/hSaX3Jy2bJTeRu024BuVxOAcCtrV/9qEJ0kJT6qGUrAGCUIWH+DcNb+qOR7/8GAIIgmDQo9q4veRu2d0WlLf+zPBFP/NyJi1sXEQAY7YkmXavWqp/u2nTVvuazs14LpJBSQRCwi0Z7WmMtnTaqM7EoYlE2qnNrrKXTRaM9QRBwCqkpvX/D9q6okBPTtemqffXa6F1x5SslwkqE48pX9droXV2brtpXyImZjPDTbgF9faKzWXL7v/36nyTjyWLkIhY5sT4nIudpT1VqldSyby7a25wzpYowVzDpIG3/6x/e+GnSb/ksAFTC0Wf/4G8Xfq7536z3A0SE+vu7pfTAm+2+MTtIhNhZgjDGD3aWSIR8Y3aUHnizvb+/W6bayxs4NCACIY74G1FUt1FUtxzxNwRCA4cGBOeiIVLsLuogCNi39pFWv+Xqer3ilEARC8YPJVD1esW1+i1X+9Y+EgQBTxYQm5TNZ10+k1fX37/ogA3DvTYM915//6ID+UxeZfNZN+sKkJyYdJC2B4L+Te2xtky5MmgVoBsZ2alDAbpcGbTtsbbMgaB/UzpIW8nJlHKSTCYDESFFskeR7BERymQys98WL60veRSQfSV3YE2rl+wZqQ5bYtZgxkSDmPVIddi2esmeV3IH1lBAtrR+ck2Mhhk0EhoF9zMF9zMiEmSnkmZPAwhKTgwFZP/zm69+vsWPP2XZKceWCIpwQpZ2ao4PEAQsWhkxSvNoWFv1h9++9unmmlNNuiaTVE2rApobffXvXr057sV+yOLi1lkhIjVF8GSjDSnStVpUv+3av7/2makq4Wzr9amnuVkoypM7uPnAat/zdguziZxlRaTkDDbAIuxpo0gpG0bR2qU91z0pGdHoOzFvP+cKkIxoyjdi9uHNBzbFvFhPGNXFsoNSTbM/s20wsxil4Xsxqkf1zZ/ouW7Lye88ZwpoHjtRllzp3lL7HG22JWMtq8vVMjOYFKlpSahYWBSUtCXaVKU++uSwsxu7/rFrSPpEIzMz1jBxWQqhQq5giEgoS+7wvS+nOrT5RYuXWD1cGXQQp5SAPgjxJzuUgCBODVcGXYuXWN2hzS8O3/tyirLkiEgKuYKRszgJnrQFSC6nikipZkp58J59c2Pa3E9EX9VKUzWqOUWkZ9I3WcQlvLh27EREvl939ltLH1x+tJkKp1BkmkIhNaECBELIgYooqiKK3KzQDt237yOewx0gdU+r3zJ3qDYsjVbv+I7MdBeUv1tXhBlE1B6fQyPh6FEIPxhp7LzmgeX/16w8U0ipFFKMAEKYuoucdvevfb202JD7MhSta/WSH69EVYQucgRoEM32RQAI4Hzt6aSXwEhUeQcsu6zoxxY/1PXaWVuAQOjw1/bO9UQtUsqkhORzIuhK+glTs3VYZx0ARUR0ji9ECAA22ui4iaESVi0RSiT0UwcpuJDfWPzwjf87VSswAJAEEP3O+Rrd1LFOC0Qa/TZROPMwd/aeKmAAdEL3F0Q4W4s87ewjX39xsTh8GZB1rX7TBawjgp790zSBCJyvTcMFwso7AO0ijcfmP3TjazMKgm/fve8jdR3eQYJ72mLJuYO18hgIkpols2cQUUe8jcr1ylEhPBhz/s4rH55hEDwlDN7147mtqq0RBklT1c5SGDRx7aQRBke4/K2lW2+ZmTA4USJUzBV1UxFv3F1IxaC2Jk38E4NhuREVjh/10TSEv8ZaArgOv01XbO1wHXzXwofTxeOCByl3Jl/67FPhsQKotP659k5F21r85Orh+igLhIiIzkoHY3MbvTGSObEWNRpWnhxg2di1/aahmSyMJtWFaZ7WSqZP0/abhgCsObL+2YNJE+upuVCcc6KaSjhTk2cRrTTi2lfl2sjm+ds/O1YM9TWKITqvyuG8onzWHfnzn6z2ldnNEBM5x0qRaoTrKWyACMzCntZKgWzIdu38f/3TJyXTp9GXOb/K4ROBsmAoSNsjdz5zc1x5P7Ti4pbdmTVElCZDulbj6Lb5O25+prn2edkQOZ0S3lz31OeTJv6UFVZWHKlJZicMEUNaDCmu2NqqBbtWPT2bwp91U5SCtC2t7/UW7Fr1dCWsrosro4zAgVlOPg84ZTCLEbi4MqoSVtct2LXq6dL6Xm82hZ+2Uk5WFAw9n7ZHbv/RpssSbT1D4YgF6AMAVmy732qOVcub5z9x65bmGrOdZE9LRkfPp21hRcHMf+LWLYP1cr7dJI2wc6e9zSEMYefaTdIM1sv5+U/cuqVwjoSf1mJeINSd66a1h5a0xX1T8rV3ddXW+WRQFBFOmJgKXfSrWmi7dl/TX+4OumU6k5tzcjRGIOk+tIQW5LNDLgrvFHaiATnZAjQgwk5cFN65IJ8d6j60hM6V8NN+PE75rCusKJh5fV/aW4+qO9p1QjdcoVFiCzvXrhO6HlV3zOv70t7CioKhKZ7lndcKAIBUqsiCnDKev3kkHB2IQSswM5g5Bq1GwtEB4/mbBTmVShUZ55imXQEUBFxcAfWxx7/wa8fRQ63aJzgncE5atU+Oo4c+9vgXfl1cATUd1dx5A4InAyIADK3Z0zFak9c9pTsBIGI30BKnRe171gw2ceOis4DjgmXyqmPP7b8ldo8mlEFCGRC7Rzv23P5bZPLqfBB+Zm+KXtMvAMiz/GilXnWVetV5lh8FQGP/XfwkaNwYO7pyZ+noyp2l8bzzhWZ2Mysa6yvwcwr83HjepaGA1PHL0gURLoznXSIu0IgGx27pnXfslt5543mXFMnYCRQ+pPOP/h+vaT65b/5b1AAAAABJRU5ErkJggg==",
-   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.2.0.zip",
-   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.2.0.zip.sig",
-   "app_minima": "1.0.67"
-  },
-  {
    "id": "adobe",
    "nom": "Adobe",
    "versio": "1.2.0",
@@ -375,6 +320,66 @@
    "icona_url": "data:image/png;base64,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",
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/fotos-1.1.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/fotos-1.1.0.zip.sig"
+  },
+  {
+   "id": "ia",
+   "nom": "IA",
+   "versio": "1.3.0",
+   "descripcio": {
+    "ca": "La IA a un toc de qualsevol app: selecciona un text i toca Resumeix, Tradueix, Corregeix, Explica, Respon el correu... Tactyl el porta a ChatGPT, Claude, Gemini, Perplexity o Copilot amb el prompt, l'envia i et torna el porta-retalls com era. Captura un tros de pantalla i pregunta-hi, enganxa la resposta on eres, escriu els teus prompts i tria l'assistent amb un toc.",
+    "en": "AI in one tap from any app: select some text and tap Summarize, Translate, Fix, Explain, Reply to email... Tactyl takes it to ChatGPT, Claude, Gemini, Perplexity or Copilot with the prompt, sends it and gives you your clipboard back. Snip part of the screen and ask about it, paste the answer where you were, write your own prompts and pick the assistant with one tap.",
+    "es": "La IA a un toque desde cualquier app: selecciona un texto y toca Resume, Traduce, Corrige, Explica, Responde el correo... Tactyl lo lleva a ChatGPT, Claude, Gemini, Perplexity o Copilot con el prompt, lo envía y te devuelve el portapapeles como estaba. Captura un trozo de pantalla y pregunta, pega la respuesta donde estabas, escribe tus prompts y elige el asistente con un toque.",
+    "fr": "L'IA d'un geste depuis n'importe quelle app : sélectionnez un texte et touchez Résumer, Traduire, Corriger, Expliquer, Répondre au courriel... Tactyl l'envoie à ChatGPT, Claude, Gemini, Perplexity ou Copilot avec le prompt et vous rend le presse-papiers tel quel. Capturez une zone de l'écran et posez une question, collez la réponse là où vous étiez, écrivez vos prompts et choisissez l'assistant d'un geste.",
+    "de": "KI mit einem Tipp aus jeder App: Text markieren und Zusammenfassen, Übersetzen, Korrigieren, Erklären, Auf E-Mail antworten... tippen. Tactyl bringt ihn mit dem Prompt zu ChatGPT, Claude, Gemini, Perplexity oder Copilot, sendet ihn und stellt die Zwischenablage wieder her. Bildschirmausschnitt aufnehmen und fragen, Antwort dort einfügen, wo du warst, eigene Prompts schreiben und den Assistenten mit einem Tipp wählen.",
+    "it": "L'IA con un tocco da qualsiasi app: seleziona un testo e tocca Riassumi, Traduci, Correggi, Spiega, Rispondi all'email... Tactyl lo porta a ChatGPT, Claude, Gemini, Perplexity o Copilot con il prompt, lo invia e ti restituisce gli appunti com'erano. Cattura una parte dello schermo e chiedi, incolla la risposta dove eri, scrivi i tuoi prompt e scegli l'assistente con un tocco.",
+    "pt": "A IA com um toque em qualquer app: seleciona um texto e toca Resume, Traduz, Corrige, Explica, Responde ao email... O Tactyl leva-o ao ChatGPT, Claude, Gemini, Perplexity ou Copilot com o prompt, envia-o e devolve-te a área de transferência como estava. Captura um pedaço do ecrã e pergunta, cola a resposta onde estavas, escreve os teus prompts e escolhe o assistente com um toque."
+   },
+   "programes": [
+    {
+     "id": "prompts",
+     "nom": "Prompts",
+     "web": ""
+    },
+    {
+     "id": "mes",
+     "nom": "Més prompts",
+     "web": ""
+    },
+    {
+     "id": "chatgpt",
+     "nom": "ChatGPT",
+     "web": "chatgpt.com"
+    },
+    {
+     "id": "claude",
+     "nom": "Claude",
+     "web": "claude.ai"
+    },
+    {
+     "id": "gemini",
+     "nom": "Gemini",
+     "web": "gemini.google.com"
+    },
+    {
+     "id": "perplexity",
+     "nom": "Perplexity",
+     "web": "perplexity.ai"
+    },
+    {
+     "id": "copilot",
+     "nom": "Copilot",
+     "web": "copilot.microsoft.com"
+    },
+    {
+     "id": "agents",
+     "nom": "Agents",
+     "web": ""
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.3.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.3.0.zip.sig",
+   "app_minima": "1.0.69"
   }
  ]
 }
