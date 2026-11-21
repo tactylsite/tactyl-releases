@@ -30,60 +30,6 @@
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/streaming-1.1.0.zip.sig"
   },
   {
-   "id": "adobe",
-   "nom": "Adobe",
-   "versio": "1.1.0",
-   "descripcio": {
-    "ca": "Les apps d'Adobe a la placa: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic i Acrobat, cadascuna amb les seves eines i dreceres i una pantalla que surt sola quan la tens al davant.",
-    "en": "Adobe apps on the board: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic and Acrobat, each with its tools and shortcuts and a screen that shows up by itself when it's in front.",
-    "es": "Las apps de Adobe en la placa: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic y Acrobat, cada una con sus herramientas y atajos y una pantalla que aparece sola cuando la tienes delante.",
-    "fr": "Les apps Adobe sur la carte : Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic et Acrobat, chacune avec ses outils et raccourcis et un écran qui s'affiche tout seul quand elle est au premier plan.",
-    "de": "Adobe-Apps auf dem Board: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic und Acrobat, jede mit ihren Werkzeugen und Kurzbefehlen und einem Bildschirm, der von selbst erscheint, wenn sie im Vordergrund ist.",
-    "it": "Le app Adobe sulla scheda: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic e Acrobat, ognuna con i suoi strumenti e scorciatoie e una schermata che compare da sola quando è in primo piano.",
-    "pt": "As apps da Adobe na placa: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic e Acrobat, cada uma com as suas ferramentas e atalhos e um ecrã que aparece sozinho quando está à frente."
-   },
-   "programes": [
-    {
-     "id": "photoshop",
-     "nom": "Photoshop",
-     "web": ""
-    },
-    {
-     "id": "illustrator",
-     "nom": "Illustrator",
-     "web": ""
-    },
-    {
-     "id": "indesign",
-     "nom": "InDesign",
-     "web": ""
-    },
-    {
-     "id": "premiere",
-     "nom": "Premiere Pro",
-     "web": ""
-    },
-    {
-     "id": "aftereffects",
-     "nom": "After Effects",
-     "web": ""
-    },
-    {
-     "id": "lightroom",
-     "nom": "Lightroom Classic",
-     "web": ""
-    },
-    {
-     "id": "acrobat",
-     "nom": "Acrobat",
-     "web": ""
-    }
-   ],
-   "icona_url": "data:image/png;base64,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",
-   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/adobe-1.1.0.zip",
-   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/adobe-1.1.0.zip.sig"
-  },
-  {
    "id": "domotica",
    "nom": "Domòtica",
    "versio": "1.1.0",
@@ -365,6 +311,70 @@
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.2.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/ia-1.2.0.zip.sig",
    "app_minima": "1.0.67"
+  },
+  {
+   "id": "adobe",
+   "nom": "Adobe",
+   "versio": "1.2.0",
+   "descripcio": {
+    "ca": "Les apps d'Adobe a la placa: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic i Acrobat, cadascuna amb les seves eines i dreceres i una pantalla que surt sola quan la tens al davant.",
+    "en": "Adobe apps on the board: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic and Acrobat, each with its tools and shortcuts and a screen that shows up by itself when it's in front.",
+    "es": "Las apps de Adobe en la placa: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic y Acrobat, cada una con sus herramientas y atajos y una pantalla que aparece sola cuando la tienes delante.",
+    "fr": "Les apps Adobe sur la carte : Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic et Acrobat, chacune avec ses outils et raccourcis et un écran qui s'affiche tout seul quand elle est au premier plan.",
+    "de": "Adobe-Apps auf dem Board: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic und Acrobat, jede mit ihren Werkzeugen und Kurzbefehlen und einem Bildschirm, der von selbst erscheint, wenn sie im Vordergrund ist.",
+    "it": "Le app Adobe sulla scheda: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic e Acrobat, ognuna con i suoi strumenti e scorciatoie e una schermata che compare da sola quando è in primo piano.",
+    "pt": "As apps da Adobe na placa: Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Lightroom Classic e Acrobat, cada uma com as suas ferramentas e atalhos e um ecrã que aparece sozinho quando está à frente."
+   },
+   "programes": [
+    {
+     "id": "photoshop",
+     "nom": "Photoshop",
+     "web": ""
+    },
+    {
+     "id": "photoshop_retoc",
+     "nom": "Photoshop: retoc",
+     "web": ""
+    },
+    {
+     "id": "illustrator",
+     "nom": "Illustrator",
+     "web": ""
+    },
+    {
+     "id": "indesign",
+     "nom": "InDesign",
+     "web": ""
+    },
+    {
+     "id": "premiere",
+     "nom": "Premiere Pro",
+     "web": ""
+    },
+    {
+     "id": "premiere_edicio",
+     "nom": "Premiere: muntatge",
+     "web": ""
+    },
+    {
+     "id": "aftereffects",
+     "nom": "After Effects",
+     "web": ""
+    },
+    {
+     "id": "lightroom",
+     "nom": "Lightroom Classic",
+     "web": ""
+    },
+    {
+     "id": "acrobat",
+     "nom": "Acrobat",
+     "web": ""
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/adobe-1.2.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/adobe-1.2.0.zip.sig"
   }
  ]
 }
