@@ -126,46 +126,6 @@
    "app_minima": "1.0.67"
   },
   {
-   "id": "programacio",
-   "nom": "Programació",
-   "versio": "1.2.0",
-   "descripcio": {
-    "ca": "Programar amb la placa al costat: el VS Code amb les seves dreceres (paleta d'ordres, terminal, Git, depurar pas a pas) i les de PlatformIO (compilar, pujar a la placa, monitor sèrie). Quan el VS Code és al davant, la seva pantalla surt sola.",
-    "en": "Coding with the board beside you: VS Code with its shortcuts (command palette, terminal, Git, step-by-step debugging) and PlatformIO's (build, upload to the board, serial monitor). When VS Code is in front, its screen shows up by itself.",
-    "es": "Programar con la placa al lado: VS Code con sus atajos (paleta de comandos, terminal, Git, depurar paso a paso) y los de PlatformIO (compilar, subir a la placa, monitor serie). Cuando VS Code está delante, su pantalla sale sola.",
-    "fr": "Programmer avec la carte à côté : VS Code avec ses raccourcis (palette de commandes, terminal, Git, débogage pas à pas) et ceux de PlatformIO (compiler, téléverser sur la carte, moniteur série). Quand VS Code est au premier plan, son écran s'affiche tout seul.",
-    "de": "Programmieren mit dem Board daneben: VS Code mit seinen Kurzbefehlen (Befehlspalette, Terminal, Git, schrittweises Debuggen) und denen von PlatformIO (kompilieren, auf das Board hochladen, serieller Monitor). Wenn VS Code vorne ist, erscheint sein Bildschirm von selbst.",
-    "it": "Programmare con la scheda accanto: VS Code con le sue scorciatoie (tavolozza dei comandi, terminale, Git, debug passo passo) e quelle di PlatformIO (compilare, caricare sulla scheda, monitor seriale). Quando VS Code è in primo piano, la sua schermata compare da sola.",
-    "pt": "Programar com a placa ao lado: o VS Code com os seus atalhos (paleta de comandos, terminal, Git, depurar passo a passo) e os do PlatformIO (compilar, enviar para a placa, monitor série). Quando o VS Code está à frente, o seu ecrã aparece sozinho."
-   },
-   "programes": [
-    {
-     "id": "vscode",
-     "nom": "VS Code",
-     "web": ""
-    },
-    {
-     "id": "edicio",
-     "nom": "VS Code: edició",
-     "web": ""
-    },
-    {
-     "id": "ia_codi",
-     "nom": "IA per al codi",
-     "web": ""
-    },
-    {
-     "id": "terminal",
-     "nom": "Terminal",
-     "web": ""
-    }
-   ],
-   "icona_url": "data:image/png;base64,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",
-   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.2.0.zip",
-   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.2.0.zip.sig",
-   "app_minima": "1.0.67"
-  },
-  {
    "id": "adobe",
    "nom": "Adobe",
    "versio": "1.2.0",
@@ -415,6 +375,51 @@
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/borsa-1.0.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/borsa-1.0.0.zip.sig",
    "app_minima": "1.0.68"
+  },
+  {
+   "id": "programacio",
+   "nom": "Programació",
+   "versio": "1.3.0",
+   "descripcio": {
+    "ca": "Programar amb la placa al costat: el VS Code amb les seves dreceres (paleta d'ordres, terminal, Git, depurar pas a pas) i les de PlatformIO (compilar, pujar a la placa, monitor sèrie). Quan el VS Code és al davant, la seva pantalla surt sola.",
+    "en": "Coding with the board beside you: VS Code with its shortcuts (command palette, terminal, Git, step-by-step debugging) and PlatformIO's (build, upload to the board, serial monitor). When VS Code is in front, its screen shows up by itself.",
+    "es": "Programar con la placa al lado: VS Code con sus atajos (paleta de comandos, terminal, Git, depurar paso a paso) y los de PlatformIO (compilar, subir a la placa, monitor serie). Cuando VS Code está delante, su pantalla sale sola.",
+    "fr": "Programmer avec la carte à côté : VS Code avec ses raccourcis (palette de commandes, terminal, Git, débogage pas à pas) et ceux de PlatformIO (compiler, téléverser sur la carte, moniteur série). Quand VS Code est au premier plan, son écran s'affiche tout seul.",
+    "de": "Programmieren mit dem Board daneben: VS Code mit seinen Kurzbefehlen (Befehlspalette, Terminal, Git, schrittweises Debuggen) und denen von PlatformIO (kompilieren, auf das Board hochladen, serieller Monitor). Wenn VS Code vorne ist, erscheint sein Bildschirm von selbst.",
+    "it": "Programmare con la scheda accanto: VS Code con le sue scorciatoie (tavolozza dei comandi, terminale, Git, debug passo passo) e quelle di PlatformIO (compilare, caricare sulla scheda, monitor seriale). Quando VS Code è in primo piano, la sua schermata compare da sola.",
+    "pt": "Programar com a placa ao lado: o VS Code com os seus atalhos (paleta de comandos, terminal, Git, depurar passo a passo) e os do PlatformIO (compilar, enviar para a placa, monitor série). Quando o VS Code está à frente, o seu ecrã aparece sozinho."
+   },
+   "programes": [
+    {
+     "id": "vscode",
+     "nom": "VS Code",
+     "web": ""
+    },
+    {
+     "id": "edicio",
+     "nom": "VS Code: edició",
+     "web": ""
+    },
+    {
+     "id": "ia_codi",
+     "nom": "IA per al codi",
+     "web": ""
+    },
+    {
+     "id": "terminal",
+     "nom": "Terminal",
+     "web": ""
+    },
+    {
+     "id": "git",
+     "nom": "Git",
+     "web": ""
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.3.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.3.0.zip.sig",
+   "app_minima": "1.0.75"
   }
  ]
 }
