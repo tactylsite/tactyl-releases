@@ -219,45 +219,6 @@
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/streaming-1.1.0.zip.sig"
   },
   {
-   "id": "domotica",
-   "nom": "Domòtica",
-   "versio": "1.1.0",
-   "descripcio": {
-    "ca": "La casa des de la placa: llums, endolls, persianes i escenes de Home Assistant, Tuya / Smart Life i l'app Casa d'Apple (amb les Dreceres), amb el punt verd o vermell de com estan.",
-    "en": "Your home from the board: lights, plugs, blinds and scenes from Home Assistant, Tuya / Smart Life and Apple's Home app (with Shortcuts), with a green or red dot showing their state.",
-    "es": "La casa desde la placa: luces, enchufes, persianas y escenas de Home Assistant, Tuya / Smart Life y la app Casa de Apple (con Atajos), con el punto verde o rojo de cómo están.",
-    "fr": "La maison depuis la carte : lumières, prises, volets et scènes de Home Assistant, Tuya / Smart Life et l'app Maison d'Apple (avec Raccourcis), avec un point vert ou rouge selon leur état.",
-    "de": "Dein Zuhause auf der Platine: Lichter, Steckdosen, Rollläden und Szenen aus Home Assistant, Tuya / Smart Life und der Home-App von Apple (mit Kurzbefehlen), mit grünem oder rotem Punkt für den Zustand.",
-    "it": "La casa dalla scheda: luci, prese, tapparelle e scene di Home Assistant, Tuya / Smart Life e dell'app Casa di Apple (con Comandi rapidi), con il punto verde o rosso del loro stato.",
-    "pt": "A casa a partir da placa: luzes, tomadas, estores e cenas do Home Assistant, Tuya / Smart Life e da app Casa da Apple (com Atalhos), com o ponto verde ou vermelho do estado."
-   },
-   "programes": [
-    {
-     "id": "llums",
-     "nom": "Llums",
-     "web": ""
-    },
-    {
-     "id": "endolls",
-     "nom": "Endolls",
-     "web": ""
-    },
-    {
-     "id": "persianes",
-     "nom": "Persianes",
-     "web": ""
-    },
-    {
-     "id": "escenes",
-     "nom": "Escenes",
-     "web": ""
-    }
-   ],
-   "icona_url": "data:image/png;base64,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",
-   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/domotica-1.1.0.zip",
-   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/domotica-1.1.0.zip.sig"
-  },
-  {
    "id": "fotos",
    "nom": "Marc de fotos",
    "versio": "1.1.0",
@@ -420,6 +381,71 @@
    "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.3.0.zip",
    "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/programacio-1.3.0.zip.sig",
    "app_minima": "1.0.75"
+  },
+  {
+   "id": "domotica",
+   "nom": "Domòtica",
+   "versio": "2.0.0",
+   "descripcio": {
+    "ca": "Tota la casa a la placa: termòstats amb el dial, sensors amb la gràfica de 24 hores, llums amb la intensitat i el color, persianes, ventiladors, endolls, panys, alarma, escenes, habitacions i l'energia (plaques solars, bateria i xarxa) amb el corrent en moviment. Home Assistant, Tuya / Smart Life, Shelly i l'app Casa d'Apple; avisos de fum, aigua i gas.",
+    "en": "The whole house on the board: thermostats with a dial, sensors with a 24-hour chart, lights with brightness and colour, blinds, fans, plugs, locks, alarm, scenes, rooms and energy (solar panels, battery and grid) with the current flowing. Home Assistant, Tuya / Smart Life, Shelly and Apple's Home app; smoke, water and gas alerts.",
+    "es": "Toda la casa en la placa: termostatos con el dial, sensores con la gráfica de 24 horas, luces con la intensidad y el color, persianas, ventiladores, enchufes, cerraduras, alarma, escenas, habitaciones y la energía (placas solares, batería y red) con la corriente en movimiento. Home Assistant, Tuya / Smart Life, Shelly y la app Casa de Apple; avisos de humo, agua y gas.",
+    "fr": "Toute la maison sur la carte : thermostats avec le cadran, capteurs avec le graphique sur 24 heures, lumières avec l'intensité et la couleur, volets, ventilateurs, prises, serrures, alarme, scènes, pièces et l'énergie (panneaux solaires, batterie et réseau) avec le courant en mouvement. Home Assistant, Tuya / Smart Life, Shelly et l'app Maison d'Apple ; alertes de fumée, d'eau et de gaz.",
+    "de": "Das ganze Haus auf der Platine: Thermostate mit Drehregler, Sensoren mit 24-Stunden-Grafik, Lichter mit Helligkeit und Farbe, Rollläden, Ventilatoren, Steckdosen, Schlösser, Alarm, Szenen, Räume und die Energie (Solaranlage, Akku und Netz) mit dem fließenden Strom. Home Assistant, Tuya / Smart Life, Shelly und Apples Home-App; Warnungen bei Rauch, Wasser und Gas.",
+    "it": "Tutta la casa sulla scheda: termostati con la manopola, sensori con il grafico delle 24 ore, luci con intensità e colore, tapparelle, ventilatori, prese, serrature, allarme, scene, stanze e l'energia (pannelli solari, batteria e rete) con la corrente in movimento. Home Assistant, Tuya / Smart Life, Shelly e l'app Casa di Apple; avvisi di fumo, acqua e gas.",
+    "pt": "A casa toda na placa: termóstatos com o mostrador, sensores com o gráfico de 24 horas, luzes com a intensidade e a cor, estores, ventoinhas, tomadas, fechaduras, alarme, cenas, divisões e a energia (painéis solares, bateria e rede) com a corrente em movimento. Home Assistant, Tuya / Smart Life, Shelly e a app Casa da Apple; alertas de fumo, água e gás."
+   },
+   "programes": [
+    {
+     "id": "llums",
+     "nom": "Llums",
+     "web": ""
+    },
+    {
+     "id": "endolls",
+     "nom": "Endolls",
+     "web": ""
+    },
+    {
+     "id": "persianes",
+     "nom": "Persianes",
+     "web": ""
+    },
+    {
+     "id": "escenes",
+     "nom": "Escenes",
+     "web": ""
+    },
+    {
+     "id": "clima",
+     "nom": "Clima",
+     "web": ""
+    },
+    {
+     "id": "sensors",
+     "nom": "Sensors",
+     "web": ""
+    },
+    {
+     "id": "reguladors",
+     "nom": "Reguladors",
+     "web": ""
+    },
+    {
+     "id": "energia",
+     "nom": "Energia",
+     "web": ""
+    },
+    {
+     "id": "sales",
+     "nom": "Habitacions",
+     "web": ""
+    }
+   ],
+   "icona_url": "data:image/png;base64,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",
+   "zip": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/domotica-2.0.0.zip",
+   "sig": "https://raw.githubusercontent.com/tactylsite/tactyl-releases/main/addons/domotica-2.0.0.zip.sig",
+   "app_minima": "1.0.77"
   }
  ]
 }
